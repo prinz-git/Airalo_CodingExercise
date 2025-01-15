@@ -26,6 +26,12 @@ describe('Buy an E-sim package', () => {
     // Function to accept cookies on the homepage
     function acceptCookiesBanner() {
       cy.get(elementSelectors.acceptCookiesButton).click({ force: true });
+      cy.get('body').then(($body) => {
+        const element = $body.find('#wzrk-cancel');
+        if (element.length > 0) {
+          cy.get('#wzrk-cancel').should('be.visible').click();
+        }
+      });
     }
   
     // Function to search for a country and validate navigation
