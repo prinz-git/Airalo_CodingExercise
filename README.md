@@ -21,8 +21,8 @@ This project includes two exercises:
 
 1. Clone the repository:  
    ```bash  
-   git clone <repository-url>  
-   cd <repository-folder>  
+   git clone https://github.com/prinz-git/Airalo_CodingExercise.git  
+   cd   airalo_test
    ```  
 
 2. Install dependencies:  
