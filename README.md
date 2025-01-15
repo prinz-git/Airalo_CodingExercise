@@ -1,6 +1,6 @@
 # Automation Exercises for Airalo Website and API  
 
-This repository contains solutions for automating website interactions and API testing for Airalo. These tasks demonstrate skills in UI and API test automation, including scripting, verifying data accuracy, and ensuring system reliability.  
+#### This repository contains solutions for automating website interactions and API testing for Airalo. These tasks demonstrate skills in UI and API test automation, including scripting, verifying data accuracy, and ensuring system reliability.  
 ---
 
 ## Overview  
@@ -22,7 +22,7 @@ This project includes two exercises:
 1. Clone the repository:  
    ```bash  
    git clone https://github.com/prinz-git/Airalo_CodingExercise.git  
-   cd   airalo_test
+   cd   airalo_CodingExercise
    ```  
 
 2. Install dependencies:  
@@ -42,12 +42,11 @@ This project includes two exercises:
 2. Run the test file for UI automation.  
 
 ### API Tests  
-1. Execute the API test script:  
+1. Open Cypress Test Runner:  
    ```bash  
-  npx cypress open 
+   npx cypress open  
    ```  
-
----
+2. Run the test file for UI automation.  
 
 ## Expected Results  
 
